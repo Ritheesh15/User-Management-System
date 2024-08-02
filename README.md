@@ -26,6 +26,17 @@ A full-stack user management system built with Node.js, Express, MongoDB, and Re
 ## Installation
 
 ### Clone the Repository
-```sh
 git clone https://github.com/your-username/User-Management-System.git
 cd User-Management-System
+
+### Usage
+
+**Running the Application**
+Backend: Runs on http://localhost:5000
+Frontend: Runs on http://localhost:3000
+
+## MongoDB Setup
+If you are using MongoDB Compass, connect to your MongoDB instance with the connection string provided in the .env file.
+
+## Verify Mongoose Connection
+To check if Mongoose is connected, ensure that the backend server logs a successful connection message.
